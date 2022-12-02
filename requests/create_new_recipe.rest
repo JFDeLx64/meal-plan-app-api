@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/recipes
+content-type: application/json
+
+{
+    "name": "Poke Bowl",
+    "time": "25 min",
+    "isFavorite": false
+}
